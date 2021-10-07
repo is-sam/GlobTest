@@ -19,6 +19,9 @@ Le challenge, si vous l'acceptez, serait d'aider Echo à comprendre ce que fait 
 
 Expliquez, en quelques lignes, ce que fait cette fonction.
 
+> ### _Réponse_
+> Cette fonction prends en paramètre un tableau de plusieurs tableau `[a, b]`, déterminant une plage d'entiers allant de `a` à `b`, puis fusionne ses plages pour retourner l'union de celles-ci.
+
 ### Question 2
 
 Codez cette fonction.
@@ -28,9 +31,15 @@ Merci de fournir un fichier contenant :
 - l'appel de la fonction, avec un jeu de test en entrée,
 - l'affichage du résultat en sortie.
 
+> ### _Réponse_
+> Voir le fichier `foo.php`
+
 ### Question 3
 
 Précisez en combien de temps vous avez implémenté cette fonction.
+
+> ### _Réponse_
+> J'ai mis ~40 minutes pour implémenter cette fonction.
 
 ## Merci
 
