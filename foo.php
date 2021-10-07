@@ -11,11 +11,6 @@ function foo($ranges) {
     $unions = [];
 
     foreach ($ranges as $range) {
-        if (empty($unions)) {
-            $unions[] = $range;
-            continue;
-        }
-
         $rangeAdded = false;
         foreach ($unions as &$union) {
             // If the range intersects with the previously stored range
@@ -33,7 +28,7 @@ function foo($ranges) {
             }
         }
         // If this range has not been added it means that it doesn't intersect with any 
-        // previously stored ranges, we should add it
+        // previously stored ranges, or that it's the first one, we should add it
         if (!$rangeAdded) {
             $unions[] = $range;
         }
